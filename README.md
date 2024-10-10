@@ -64,10 +64,15 @@ Configuration: Mention if there are any configuration files (e.g., .env files, c
 E.G.
 
 ├── data/
+
 │   ├── raw/
+
 │   ├── processed/
+
 ├── scripts/
+
 ├── notebooks/
+
 ├── README.md
 
 
