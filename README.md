@@ -7,35 +7,35 @@ Data Preprocessing Pipeline
 Data preprocessing is a crucial step in any data science or machine learning project. This process involves cleaning, transforming, and organizing raw data into a suitable format for analysis or model training. The goal is to ensure that the data is accurate, complete, and properly formatted to improve the performance of machine learning algorithms.
 
 # 1. Data Collection 
-- #Description#: Describe the sources of your data (e.g., CSV files, databases, APIs) and how they were obtained.
+- Description: Describe the sources of your data (e.g., CSV files, databases, APIs) and how they were obtained.
 - #Tools#: Mention any libraries or scripts used for data collection (e.g., `requests` for API calls, `pandas` for reading files).
-- #Example#: 
+- Example: 
   ```python
   import pandas as pd
   df = pd.read_csv('data/raw_data.csv')
 # 2. Data Cleaning 
-- #Handling Missing Values#: Explain how you dealt with missing values (e.g., removing rows, filling with mean/median).
-- #Example#: 
+- Handling Missing Values#: Explain how you dealt with missing values (e.g., removing rows, filling with mean/median).
+- Example: 
   ```python
      df = df.dropna()  # Drop rows with missing values
      # Or fill with mean:
      df.fillna(df.mean(), inplace=True)
-- #Removing Duplicates#: Describe how duplicates were removed.
+- Removing Duplicates: Describe how duplicates were removed.
   ```python
   df = df.drop_duplicates()
-- #Outlier Detection and Removal#:Specify methods used to identify and handle outliers (e.g., IQR, Z-score).
+- Outlier Detection and Removal:Specify methods used to identify and handle outliers (e.g., IQR, Z-score).
 # 3. Data Transformation 
-- #Scaling#: Mention if and how features were scaled (e.g., Min-Max Scaling, Standardization).
+- Scaling: Mention if and how features were scaled (e.g., Min-Max Scaling, Standardization).
     ```python
     from sklearn.preprocessing import StandardScaler
     scaler = StandardScaler()
     df[['feature1', 'feature2']] = scaler.fit_transform(df[['feature1', 'feature2']])
-- #Encoding Categorical Variables#: Explain how categorical variables were handled (e.g., one-hot encoding, label encoding).
+- Encoding Categorical Variables: Explain how categorical variables were handled (e.g., one-hot encoding, label encoding).
     ```python
     df = pd.get_dummies(df, columns=['category_column'])
-- #Feature Engineering#: f['new_feature'] = df['feature1'] * df['feature2'].
+- Feature Engineering: f['new_feature'] = df['feature1'] * df['feature2'].
 # 4. Data Integration
-- #Description#: Describe how different data sources were combined (e.g., merging multiple datasets, joining tables).
+- Description: Describe how different data sources were combined (e.g., merging multiple datasets, joining tables).
    ```python
    df_combined = pd.merge(df1, df2, on='key_column')
 # 5. Data Reduction 
@@ -76,13 +76,3 @@ E.G.
 # 10. Additional Notes                    
 
 
-## Key Elements in Markdown: 
-
-1. #Headers#: Use `#`, `#`, or `##` to create hierarchical sections.
-2. #Code Blocks#: Use triple backticks (\```) to format code snippets for readability.
-3. #Lists#: Use `-` or `*` for bullet points.
-4. #Inline Code#: Enclose code fragments or function names in single backticks (e.g., `pd.read_csv`).
-5. #Directory Structures#: Represent folder structures using indentation and special symbols like `├──` for branches and `│` for vertical lines.
-
-
-                                                           
