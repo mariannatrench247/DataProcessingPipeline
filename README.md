@@ -1,7 +1,5 @@
 # DataProcessingPipeline
 End To End Data Processing Pipeline
-#
-Data Preprocessing Pipeline
 
 # Overview 
 Data preprocessing is a crucial step in any data science or machine learning project. This process involves cleaning, transforming, and organizing raw data into a suitable format for analysis or model training. The goal is to ensure that the data is accurate, complete, and properly formatted to improve the performance of machine learning algorithms.
