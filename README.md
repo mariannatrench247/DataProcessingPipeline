@@ -46,18 +46,18 @@ df_reduced = pca.fit_transform(df)
 Feature Selection: List the techniques used for feature selection (e.g., correlation analysis, mutual information).
 
 # 6. Data Splitting 
-Describe how the data was split into training and testing sets.
+ how the data was split into training and testing sets.
 '''python
 from sklearn.model_selection import train_test_split
 train, test = train_test_split(df, test_size=0.2, random_state=42)
 
 # 7. Final Preprocessed Data 
-Provides details on the final structure and format of the preprocessed data. Include examples or screenshots if applicable.
+ final structure and format of the preprocessed data. 
 
 # 8. Automation and Reproducibility 
 
-Scripts: Link to any scripts or Jupyter notebooks used for preprocessing.
-Instructions: Provide clear instructions on how to execute the preprocessing pipeline (e.g., python preprocess.py).
+Scripts:  
+Instructionshow to execute the preprocessing pipeline (e.g., python preprocess.py).
 Configuration: Mention if there are any configuration files (e.g., .env files, config.yaml).
 
 # 9. Directory Structure 
