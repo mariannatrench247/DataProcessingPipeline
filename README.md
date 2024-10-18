@@ -28,6 +28,7 @@ Data Orchestration: Prefect, Airflow
 
 # Overview 
 Data preprocessing is a crucial step in any data science or machine learning project. This process involves cleaning, transforming, and organizing raw data into a suitable format for analysis or model training. The goal is to ensure that the data is accurate, complete, and properly formatted to improve the performance of machine learning algorithms.
+  I will take data from several sources and transfer it to a destination: analytics tools or cloud storage, where the raw data is then converted into useful information, generating key insights. For this repository, I will be using Python to achieve my end to end data processing as the data will be fitted for machine learning models written in Python using Pytorch and Tensorflow. 
 
 # 1. Data Collection 
 - Description: Describe the sources of your data (e.g., CSV files, databases, APIs) and how they were obtained.
