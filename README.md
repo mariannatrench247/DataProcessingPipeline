@@ -2,23 +2,22 @@
 End To End Data from batch processing to ETL for Machine Learning Datasets
 
 # Core Libraries
-  PANDAS 
-  NUMPY 
+  Pandas, NumPy
+
 
 # ETL Tools :
-APACHE AIRFLOW
-APACHE NIFI
+Apache Airflow, Apache Nifi
+
 
 # Data Processing Frameworks :
-APACHE SPARK
-DASK
+Apache Spark, DASK
+
 
 # Streaming Data
-APACHE KAFKA 
+Apache Kafka 
 
 # Databases & Database Tools
-SQL 
-SQLALCHEMY
+SQL, SQLAlchemy 
 
 # Tools
 ETL Libraries: petl, bonobo, pandas, pyodbc, sqlalchemy
