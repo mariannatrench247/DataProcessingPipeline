@@ -20,9 +20,11 @@ Apache Kafka
 SQL, SQLAlchemy 
 
 # Tools
--**ETL Libraries:** petl, bonobo, pandas, pyodbc, sqlalchemy
--**Machine Learning and Data Analysis:** scikit-learn, tensorflow, numpy, matplotlib
--**Data Orchestration:** Prefect, Airflow
+**ETL Libraries:** petl, bonobo, pandas, pyodbc, sqlalchemy
+
+**Machine Learning and Data Analysis:** scikit-learn, tensorflow, numpy, matplotlib
+
+**Data Orchestration:** Prefect, Airflow
 
 
 # Overview 
