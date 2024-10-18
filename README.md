@@ -1,26 +1,26 @@
 # Data Processing Pipeline
 End To End Data from batch processing to ETL for Machine Learning Datasets
 
-# CORE LIBRARIES: 
+# Core Libraries
   PANDAS 
   NUMPY 
 
-# ETL TOOLS :
+# ETL Tools :
 APACHE AIRFLOW
 APACHE NIFI
 
-# DATA PROCESSING FRAMEWORKS :
+# Data Processing Frameworks :
 APACHE SPARK
 DASK
 
-# STREAMING DATA 
+# Streaming Data
 APACHE KAFKA 
 
-# DATABASES & DB TOOLS
+# Databases & Database Tools
 SQL 
 SQLALCHEMY
 
-# TOOLS 
+# Tools
 ETL Libraries: petl, bonobo, pandas, pyodbc, sqlalchemy
 Machine Learning and Data Analysis: scikit-learn, tensorflow, numpy, matplotlib
 Data Orchestration: Prefect, Airflow
