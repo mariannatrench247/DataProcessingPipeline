@@ -1,5 +1,30 @@
-# DataProcessingPipeline
-End To End Data Processing Pipeline
+# Data Processing Pipeline
+End To End Data from batch processing to ETL for Machine Learning Datasets
+
+# CORE LIBRARIES: 
+  PANDAS 
+  NUMPY 
+
+# ETL TOOLS :
+APACHE AIRFLOW
+APACHE NIFI
+
+# DATA PROCESSING FRAMEWORKS :
+APACHE SPARK
+DASK
+
+# STREAMING DATA 
+APACHE KAFKA 
+
+# DATABASES & DB TOOLS
+SQL 
+SQLALCHEMY
+
+# TOOLS 
+ETL Libraries: petl, bonobo, pandas, pyodbc, sqlalchemy
+Machine Learning and Data Analysis: scikit-learn, tensorflow, numpy, matplotlib
+Data Orchestration: Prefect, Airflow
+
 
 # Overview 
 Data preprocessing is a crucial step in any data science or machine learning project. This process involves cleaning, transforming, and organizing raw data into a suitable format for analysis or model training. The goal is to ensure that the data is accurate, complete, and properly formatted to improve the performance of machine learning algorithms.
